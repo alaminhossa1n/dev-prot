@@ -1,0 +1,186 @@
+/* Alt+Shift+F = Align text in editor */
+
+* {
+    margin: o;
+    font-family: 'Open sans';
+}
+
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+#mary {
+    font-family: 'open sans';
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+.btn-primary {
+
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    border: 0;
+    padding: 18px 35px;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    margin: 0 200px;
+    align-items: center;
+}
+
+#banner-title {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 61px;
+    color: #474747;
+}
+
+#banner-sub-title {
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 116px;
+    color: #181818;
+}
+
+#paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#download-cv {
+
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+/* main area */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130 150;
+    text-align: center;
+
+}
+
+.section-title {
+
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-size: 35px;
+}
+
+.section-paragraph {
+    text-align: center;
+    color: #757575;
+    font-size: 18;
+    margin-bottom: 30px;
+}
+
+.about-info-contaiter {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    font-size: 20px;
+    /* or 150% */
+
+    /* Dark 03 */
+
+    color: #757575;
+}
+
+.info-descewption {
+    color: #474747;
+    font-size: 20px;
+}
+
+/* skills area */
+
+.skills {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+.skills-des {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+}
+
+/* skill cointainer */
+
+.skill{
+    background: #FFFFFF;
+box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skill-name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin-top: 30px;
+    margin-left: 30pxS;
+}
+
+.skill-desceiption {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
