@@ -34,15 +34,15 @@ nav li {
 }
 
 .btn-primary {
-
     height: 64px;
     background: #FD6E0A;
     border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
     line-height: 27px;
-    border: 0;
-    padding: 18px 35px;
+    padding: 0 30px;
 }
 
 /* banner styles */
@@ -75,18 +75,6 @@ nav li {
     margin-bottom: 30px;
 }
 
-#download-cv {
-
-    height: 64px;
-    background: #FD6E0A;
-    border-radius: 5px;
-    border: 0;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
-    padding: 0 30px;
-}
 
 /* main area */
 main {
@@ -161,11 +149,11 @@ main {
 
 /* skill cointainer */
 
-.skill{
+.skill {
     background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
 }
 
 .skills-container {
@@ -184,4 +172,31 @@ padding: 30px;
     font-weight: 400;
     font-size: 16px;
     color: #757575;
+}
+
+/* resume-section */
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.resume-contants {
+    display: flex;
+    gap: 24px;
+}
+
+.description{
+    margin: 30 0;
+}
+.description-heading{
+    font-weight: 700;
+font-size: 30px;
+color: #474747;
+}
+
+.resume-button{
+    text-align: center;
+    margin-top: 50px;
 }
